@@ -14,6 +14,14 @@ public class VariableDemo2 {
     //变量类型 变量名;
         //变量类型：
         //基本类型：int, float, double, char, boolean
+public class VariableDemo2 {
+    public static void main(String[] args) {
+        float a = 10.0f;
+        float b = 20.0f;        
+        float c = a + b;
+        System.out.println("a + b = " + c);
+    }
+}
         //引用类型：String, Array, Object
         //变量名：
         //字母、数字、下划线、美元符号
